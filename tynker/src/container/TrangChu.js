@@ -1,28 +1,9 @@
 import React from 'react'
-
+import Navbar from '../component/Navbar'
 const TrangChu = props => {
   return(
     <div>
-    <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div className="container">
-      <a className="navbar-brand" href="index.html"><i className="flaticon-university" />Genius <br /><small>University</small></a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="oi oi-menu" /> Menu
-      </button>
-      <div className="collapse navbar-collapse" id="ftco-nav">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item active"><a href="index.html" className="nav-link">Home</a></li>
-          <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
-          <li className="nav-item"><a href="course.html" className="nav-link">Courses</a></li>
-          <li className="nav-item"><a href="teacher.html" className="nav-link">Teacher</a></li>
-          <li className="nav-item"><a href="blog.html" className="nav-link">Blog</a></li>
-          <li className="nav-item"><a href="event.html" className="nav-link">Events</a></li>
-          <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
-          <li className="nav-item cta"><a href="contact.html" className="nav-link"><span>Apply Now!</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+      <Navbar />
   {/* END nav */}
   <div className="hero-wrap" style={{backgroundImage: 'url("images/bg_1.jpg")', backgroundAttachment: 'fixed'}}>
     <div className="overlay" />
@@ -30,7 +11,7 @@ const TrangChu = props => {
       <div className="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div className="col-md-8 ftco-animate text-center">
           <h1 className="mb-4">No Nation Can Prosper In Life Without Education</h1>
-          <p><a href="#" className="btn btn-primary px-4 py-3">Apply Now</a> <a href="#" className="btn btn-secondary px-4 py-3">View Courses</a></p>
+          <p><a href="/" className="btn btn-primary px-4 py-3">Apply Now</a> <a href="/" className="btn btn-secondary px-4 py-3">View Courses</a></p>
         </div>
       </div>
     </div>
@@ -50,7 +31,7 @@ const TrangChu = props => {
                     <input type="submit" defaultValue="Search" className="submit" />
                   </div>
                 </form>
-                <p>Just Browsing? <a href="#"> See all courses</a></p>
+                <p>Just Browsing? <a href="/"> See all courses</a></p>
               </div>
               <div className="one-forth order-first img" style={{backgroundImage: 'url(images/image_1.jpg)'}} />
             </div>
@@ -58,11 +39,11 @@ const TrangChu = props => {
               <div className="one-half">
                 <div className="featured-blog d-md-flex">
                   <div className="image d-flex order-last">
-                    <a href="#" className="img" style={{background: 'url(images/image_2.jpg)'}} />
+                    <a href="/" className="img" style={{background: 'url(images/image_2.jpg)'}} />
                   </div>
                   <div className="text order-first">
                     <span className="date">Aug 20, 2018</span>
-                    <h3><a href="#">We Conduct Workshop 2018</a></h3>
+                    <h3><a href="/">We Conduct Workshop 2018</a></h3>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                   </div>
                 </div>
@@ -248,9 +229,9 @@ const TrangChu = props => {
                 <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                 <span className="position">CSE Teacher</span>
                 <p className="ftco-social d-flex">
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
                 </p>
               </div>
             </div>
@@ -267,9 +248,9 @@ const TrangChu = props => {
                 <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                 <span className="position">CSE Teacher</span>
                 <p className="ftco-social d-flex">
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
                 </p>
               </div>
             </div>
@@ -286,9 +267,9 @@ const TrangChu = props => {
                 <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                 <span className="position">CSE Teacher</span>
                 <p className="ftco-social d-flex">
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
-                  <a href="#" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-twitter" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-facebook" /></a>
+                  <a href="/" className="d-flex justify-content-center align-items-center"><span className="icon-instagram" /></a>
                 </p>
               </div>
             </div>
@@ -310,7 +291,7 @@ const TrangChu = props => {
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
             </div>
             <div className="btn-join ftco-animate">
-              <p><a href="#" className="btn btn-primary py-3 px-4">Join now!</a></p>
+              <p><a href="/" className="btn btn-primary py-3 px-4">Join now!</a></p>
             </div>
           </div>
         </div>
@@ -327,34 +308,34 @@ const TrangChu = props => {
       <div className="row">
         <div className="col-md-4 d-flex ftco-animate">
           <div className="course align-self-stretch">
-            <a href="#" className="img bg1"  />
+            <a href="/" className="img bg1"  />
             <div className="text p-4">
               <p className="category"><span>English</span></p>
-              <h3 className="mb-3"><a href="#">English for Tommorow</a></h3>
+              <h3 className="mb-3"><a href="/">English for Tommorow</a></h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              <p><a href="#" className="btn btn-primary">Enroll now!</a></p>
+              <p><a href="/" className="btn btn-primary">Enroll now!</a></p>
             </div>
           </div>
         </div>
         <div className="col-md-4 d-flex ftco-animate">
           <div className="course align-self-stretch">
-            <a href="#" className="img bg2"  />
+            <a href="/" className="img bg2"  />
             <div className="text p-4">
               <p className="category"><span>Science</span></p>
-              <h3 className="mb-3"><a href="#">Computer Engineering</a></h3>
+              <h3 className="mb-3"><a href="/">Computer Engineering</a></h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              <p><a href="#" className="btn btn-primary">Enroll now!</a></p>
+              <p><a href="/" className="btn btn-primary">Enroll now!</a></p>
             </div>
           </div>
         </div>
         <div className="col-md-4 d-flex ftco-animate">
           <div className="course align-self-stretch">
-            <a href="#" className="img" style={{backgroundImage: 'url(images/course-3.jpg)'}} />
+            <a href="/" className="img" style={{backgroundImage: 'url(images/course-3.jpg)'}} />
             <div className="text p-4">
               <p className="category"><span>Business</span></p>
-              <h3 className="mb-3"><a href="#">Business Studies</a></h3>
+              <h3 className="mb-3"><a href="/">Business Studies</a></h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-              <p><a href="#" className="btn btn-primary">Enroll now!</a></p>
+              <p><a href="/" className="btn btn-primary">Enroll now!</a></p>
             </div>
           </div>
         </div>
@@ -381,11 +362,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">August 12, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
+              <h3 className="heading mt-3"><a href="/">How to standout at start of your UX Career</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
@@ -396,11 +377,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">August 12, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
+              <h3 className="heading mt-3"><a href="/">How to standout at start of your UX Career</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
@@ -411,11 +392,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">August 12, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
+              <h3 className="heading mt-3"><a href="/">How to standout at start of your UX Career</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
@@ -437,11 +418,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">Sep. 10, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+              <h3 className="heading mb-4"><a href="/">Intern Bootcamp Meetup 2018</a></h3>
               <p className="time-loc"><span className="mr-2"><i className="icon-clock-o" /> 10:30AM-03:30PM</span> <span><i className="icon-map-o" /> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i className="ion-ios-arrow-forward" /></a></p>
@@ -454,11 +435,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">Sep. 10, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+              <h3 className="heading mb-4"><a href="/">Intern Bootcamp Meetup 2018</a></h3>
               <p className="time-loc"><span className="mr-2"><i className="icon-clock-o" /> 10:30AM-03:30PM</span> <span><i className="icon-map-o" /> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i className="ion-ios-arrow-forward" /></a></p>
@@ -471,11 +452,11 @@ const TrangChu = props => {
             </a>
             <div className="text p-4 d-block">
               <div className="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" className="meta-chat"><span className="icon-chat" /> 3</a></div>
+                <div><a href="/">Sep. 10, 2018</a></div>
+                <div><a href="/">Admin</a></div>
+                <div><a href="/" className="meta-chat"><span className="icon-chat" /> 3</a></div>
               </div>
-              <h3 className="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+              <h3 className="heading mb-4"><a href="/">Intern Bootcamp Meetup 2018</a></h3>
               <p className="time-loc"><span className="mr-2"><i className="icon-clock-o" /> 10:30AM-03:30PM</span> <span><i className="icon-map-o" /> Venue Main Campus</span></p>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="event.html">Join Event <i className="ion-ios-arrow-forward" /></a></p>
@@ -516,9 +497,9 @@ const TrangChu = props => {
             <h2><a className="navbar-brand" href="index.html"><i className="flaticon-university" />Genius <br /><small>University</small></a></h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <li className="ftco-animate"><a href="#"><span className="icon-twitter" /></a></li>
-              <li className="ftco-animate"><a href="#"><span className="icon-facebook" /></a></li>
-              <li className="ftco-animate"><a href="#"><span className="icon-instagram" /></a></li>
+              <li className="ftco-animate"><a href="/"><span className="icon-twitter" /></a></li>
+              <li className="ftco-animate"><a href="/"><span className="icon-facebook" /></a></li>
+              <li className="ftco-animate"><a href="/"><span className="icon-instagram" /></a></li>
             </ul>
           </div>
         </div>
@@ -528,22 +509,22 @@ const TrangChu = props => {
             <div className="block-21 mb-4 d-flex">
               <a className="blog-img mr-4" style={{backgroundImage: 'url(images/image_1.jpg)'}} />
               <div className="text">
-                <h3 className="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 className="heading"><a href="/">Even the all-powerful Pointing has no control about</a></h3>
                 <div className="meta">
-                  <div><a href="#"><span className="icon-calendar" /> July 12, 2018</a></div>
-                  <div><a href="#"><span className="icon-person" /> Admin</a></div>
-                  <div><a href="#"><span className="icon-chat" /> 19</a></div>
+                  <div><a href="/"><span className="icon-calendar" /> July 12, 2018</a></div>
+                  <div><a href="/"><span className="icon-person" /> Admin</a></div>
+                  <div><a href="/"><span className="icon-chat" /> 19</a></div>
                 </div>
               </div>
             </div>
             <div className="block-21 mb-4 d-flex">
               <a className="blog-img mr-4" style={{backgroundImage: 'url(images/image_2.jpg)'}} />
               <div className="text">
-                <h3 className="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 className="heading"><a href="/">Even the all-powerful Pointing has no control about</a></h3>
                 <div className="meta">
-                  <div><a href="#"><span className="icon-calendar" /> July 12, 2018</a></div>
-                  <div><a href="#"><span className="icon-person" /> Admin</a></div>
-                  <div><a href="#"><span className="icon-chat" /> 19</a></div>
+                  <div><a href="/"><span className="icon-calendar" /> July 12, 2018</a></div>
+                  <div><a href="/"><span className="icon-person" /> Admin</a></div>
+                  <div><a href="/"><span className="icon-chat" /> 19</a></div>
                 </div>
               </div>
             </div>
@@ -553,11 +534,11 @@ const TrangChu = props => {
           <div className="ftco-footer-widget mb-4 ml-md-4">
             <h2 className="ftco-heading-2">Site Links</h2>
             <ul className="list-unstyled">
-              <li><a href="#" className="py-2 d-block">Home</a></li>
-              <li><a href="#" className="py-2 d-block">About</a></li>
-              <li><a href="#" className="py-2 d-block">Courses</a></li>
-              <li><a href="#" className="py-2 d-block">Students</a></li>
-              <li><a href="#" className="py-2 d-block">Video</a></li>
+              <li><a href="/" className="py-2 d-block">Home</a></li>
+              <li><a href="/" className="py-2 d-block">About</a></li>
+              <li><a href="/" className="py-2 d-block">Courses</a></li>
+              <li><a href="/" className="py-2 d-block">Students</a></li>
+              <li><a href="/" className="py-2 d-block">Video</a></li>
             </ul>
           </div>
         </div>
@@ -567,8 +548,8 @@ const TrangChu = props => {
             <div className="block-23 mb-3">
               <ul>
                 <li><span className="icon icon-map-marker" /><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span className="icon icon-phone" /><span className="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span className="icon icon-envelope" /><span className="text">info@yourdomain.com</span></a></li>
+                <li><a href="/"><span className="icon icon-phone" /><span className="text">+2 392 3929 210</span></a></li>
+                <li><a href="/"><span className="icon icon-envelope" /><span className="text">info@yourdomain.com</span></a></li>
               </ul>
             </div>
           </div>
@@ -589,3 +570,5 @@ const TrangChu = props => {
   
   )
 }
+
+export default TrangChu
